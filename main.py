@@ -16,7 +16,8 @@ elif instruction == 2:
     timealloc.checkAvailability()
 
 elif instruction == 3:
-    x = 0
+    name = input("What is the name of the event?")
+    timealloc.getInfo(name)
 
 else:
-    print()
+    print("No valid instruction was given")
